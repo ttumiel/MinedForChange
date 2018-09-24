@@ -148,12 +148,30 @@ The hashes of each file that is saved should be marked as OK and are thus the sa
 
 ### Verify Hashfile with PGP
 
-To verify the integrity of the hashfile, you can use the developer's PGP signature (that's me). First download the `sha256sum.txt.asc` file from this repo and place it in the same folder as the `sha256sum.txt` file.
+To verify the integrity of the hashfile, you can use the developer's PGP signature (that's me). The key used to sign the files is:
+
+```
+pub   rsa2048/6DA39F99 2018-07-05 [SC]
+      Key fingerprint = 54DC 84E3 7FDD 0DFE BB8D  39B7 447E 1B93 6DA3 9F99
+uid         [ultimate] Thomas Tumiel (Creating GPG key for Github.) <ttumiel@gmail.com>
+sub   rsa2048/B79173E7 2018-07-05 [E]
+```
+
+First download the `sha256sum.txt.asc` file from this repo and place it in the same folder as the `sha256sum.txt` file.
 
 Then download the developer's PGP key from keyservers:
 
 ```
-gpg --recv-keys 54DC 84E3 7FDD 0DFE BB8D 39B7 447E 1B93 6DA3 9F99
+gpg --keyserver keyserver.ubuntu.com --recv-keys 54DC84E37FDD0DFEBB8D39B7447E1B936DA39F99
+```
+
+Resulting in:
+
+```
+gpg: requesting key 6DA39F99 from hkp server keyserver.ubuntu.com
+gpg: key 6DA39F99: public key "Thomas Tumiel (Creating GPG key for Github.) <ttumiel@gmail.com>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
 ```
 
 
@@ -165,10 +183,14 @@ gpg --verify sha256sum.txt.asc sha256sum.txt
 
 This should result in something like the following:
 ```
-gpg: Signature made Mon 24 Sep 2018 22:00:23 SAST using RSA key ID 6DA39F99
+gpg: Signature made Mon 24 Sep 2018 10:00:23 PM SAST using RSA key ID 6DA39F99
 gpg: Good signature from "Thomas Tumiel (Creating GPG key for Github.) <ttumiel@gmail.com>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 54DC 84E3 7FDD 0DFE BB8D  39B7 447E 1B93 6DA3 9F99
 ```
 
+Do not worry about the trusted signature warning.
 
 
 On Windows, third party software is needed again. Some useful tools are [Gpg4win](https://www.gpg4win.org/) or [GPGShell](http://www.tech-faq.com/gnupg-shell.html)
