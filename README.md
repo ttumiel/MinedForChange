@@ -263,7 +263,7 @@ We support the [Against Malaria Foundation](https://www.againstmalaria.com) - a 
 
 [See our Against Malaria Foundation donations page.](https://www.againstmalaria.com/MinedForChange)
 
-Simple click the `button` to view the Monero wallet keys.
+Simple click the `more >>` button to cross-validate the Monero wallet keys.
 
 
 ## A Small Note on Browsers
