@@ -190,7 +190,7 @@ gpg:          There is no indication that the signature belongs to the owner.
 Primary key fingerprint: 54DC 84E3 7FDD 0DFE BB8D  39B7 447E 1B93 6DA3 9F99
 ```
 
-Do not worry about the trusted signature warning.
+Do not worry about the [trusted signature warning](https://security.stackexchange.com/questions/41208/what-is-the-exact-meaning-of-this-gpg-output-regarding-trust/41209#41209) provided you see "Good signature".
 
 
 On Windows, third party software is needed again. Some useful tools are [Gpg4win](https://www.gpg4win.org/) or [GPGShell](http://www.tech-faq.com/gnupg-shell.html)
