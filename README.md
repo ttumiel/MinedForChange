@@ -2,7 +2,7 @@
 
 This repository exists to verify the [Mined For Change website](https://minedforchange.org).
 
-Mined For Change is a charity that exists to fill in the gaps of donation. People who may not have lots to give or wish for another way to give besides credit card payments can simply open the site and start mining cryptocurrency for charity. It may not be a lot individually but together with thousands of other equally generous people, we can raise impressive amounts of money for the Against Malaria Foundation.
+Mined For Change is a charity that exists to fill in the gaps of donation. People who may not have lots to give or wish for another way to give besides credit card payments can simply open the site and start mining cryptocurrency for charity. It may not be a lot individually but together with thousands of other equally generous people, we can raise impressive amounts of money for the [Against Malaria Foundation](#against-malaria-foundation).
 
 Best of all, the entire process is verifiable. That is, anyone can verify that the funds they (and others) generate are actually being given to the right place. While the movement begins to grow, it is necessary for the funds to be held by someone. Mined For Change allows anyone to see the funds received and will publish all transactions to the AMF when a certain sum has built up. Hopefully one day we will be able to pay the mosquitto net manufacturers directly, eliminating all middlemen, and maximising each donation.
 
