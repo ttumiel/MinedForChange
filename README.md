@@ -153,7 +153,7 @@ To verify the integrity of the hashfile, you can use the developer's PGP signatu
 Then download the developer's PGP key from keyservers:
 
 ```
-gpg --recv-keys 6DA39F99
+gpg --recv-keys 54DC 84E3 7FDD 0DFE BB8D 39B7 447E 1B93 6DA3 9F99
 ```
 
 
