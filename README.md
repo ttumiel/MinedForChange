@@ -256,6 +256,6 @@ For these reasons it is not recommended to save the page using CTRL+s in your br
 
 Please get in touch with us:
 
-Thomas - thomas (at) minedforchange (dot) org
+Thomas (@Tom2718) - thomas (at) minedforchange (dot) org
 
-Jared - jared (at) minedforchange (dot) org
+Jared (@jarry401) - jared (at) minedforchange (dot) org
