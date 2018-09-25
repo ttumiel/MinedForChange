@@ -12,11 +12,13 @@ For more on Mined for Change and how we embody effective altruism, please [see o
 
 This folder contains the following files:
 
+```
 MinedForChange
 ├── MinedForChange-Website/
 ├── README.md
 ├── sha256sum.txt
 └── sha256sum.txt.asc
+```
 
 
 ## Verification
