@@ -25,7 +25,7 @@ MinedForChange
 
 To verify the website is as it was uploaded follow these steps:
 
-### Download the website from your browser.
+### Download the website
 
 #### Linux or Mac
 
@@ -43,7 +43,7 @@ wget https://minedforchange.org/js/worker.js https://minedforchange.org/js/crypt
 ```
 
 
-The files should be saved automatically like this:
+The files should now be saved like this:
 
 ```
 └── minedforchange.org
@@ -177,7 +177,7 @@ gpg:               imported: 1  (RSA: 1)
 ```
 
 
-On Mac or Linux, to verify the gpg signature of the `sha256sum.txt` file and thus prooving its originality from Mined For Change, type the following:
+On Mac or Linux, to verify the gpg signature of the `sha256sum.txt` file and thus proving its originality from Mined For Change, type the following:
 
 ```bash
 gpg --verify sha256sum.txt.asc sha256sum.txt
