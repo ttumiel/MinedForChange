@@ -1,3 +1,5 @@
+![](./MinedForChange-Website/img/android-chrome-192x192.png)
+
 # Mined For Change
 
 This repository exists to verify the [Mined For Change website](https://minedforchange.org).
